@@ -76,5 +76,5 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
       document.getElementById('contact-form').reset();
     }, function (error) {
       alert('Ocorreu um erro ao enviar o e-mail: ' + JSON.stringify(error));
-    });
+    })
 });
